@@ -1,0 +1,19 @@
+.frame {
+    height: 768px;      /* equals max image height */
+    width: 1024px;
+    white-space: nowrap;
+    text-align: center; 
+    margin: 0 auto; /*1em 0;*/
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+    max-height: 768px;
+    max-width: 1024px;
+}
